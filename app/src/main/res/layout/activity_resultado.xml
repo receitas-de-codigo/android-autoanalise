@@ -11,11 +11,17 @@
 
     <TextView android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entre 0/25 esta foi sua pontuação"/>
+            android:text="Entre 0/25 esta foi sua pontuação é para"
+            android:layout_marginBottom="12dp"/>
 
-    <ListView android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:listitem="@layout/item_lista">
-    </ListView>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:text="Resultado"
+              android:gravity="top"
+              android:enabled="false"
+                android:padding="12dp"
+                android:background="#CCCCCC"
+                android:id="@+id/editTextResultado"/>
 
 </LinearLayout>

@@ -13,25 +13,31 @@
             android:layout_height="wrap_content"
             android:text="Pergunta?"
             android:gravity="center"
-            android:layout_marginBottom="30dp"/>
+            android:layout_marginBottom="30dp"
+            android:id="@+id/pergunta"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nunca"/>
+            android:text="Nunca"
+            android:id="@+id/btnNunca"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Raras vezes"/>
+            android:text="Raras vezes"
+            android:id="@+id/btnRarasVezes"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Algumas vezes"/>
+            android:text="Algumas vezes"
+            android:id="@+id/btnAlgumasVezes"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Usualmente"/>
+            android:text="Usualmente"
+            android:id="@+id/btnUsualmente"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sempre"/>
+            android:text="Sempre"
+            android:id="@+id/btnSempre"/>
 </LinearLayout>

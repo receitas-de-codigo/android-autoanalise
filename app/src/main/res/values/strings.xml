@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AutoAvaliacao</string>
+    <string name="app_name">Auto Avaliação</string>
     <string name="informe_seu_nome">Informe seu nome</string>
     <string name="iniciar_questionario">Iniciar questionário</string>
     <string name="titulo_tela_1">Novo questionário</string>
