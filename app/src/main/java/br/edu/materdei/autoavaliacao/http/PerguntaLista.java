@@ -33,4 +33,5 @@ public class PerguntaLista {
                 .postForEntity(BuildConfig.SERVIDOR + "/resposta", resposta, Resultado[].class).getBody();
     }
 
+
 }
